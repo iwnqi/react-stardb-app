@@ -1,0 +1,14 @@
+.App {
+  background-color: rgb(31, 31, 31);
+  margin: 0 auto;
+  max-width: 1400px;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+.secondSpan {
+  color: rgb(73, 137, 255);
+}

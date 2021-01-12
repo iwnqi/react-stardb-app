@@ -1,0 +1,25 @@
+.ItemDetails {
+  background-color: rgb(46, 46, 46);
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  height: 270px;
+  border-radius: 10px;
+}
+.ItemDetails img {
+  margin: 20px 0 0 10px;
+  border-radius: 15px;
+}
+.ItemDetails div {
+  color: white;
+  margin: 20px 0 0 30px;
+}
+.ItemDetails h2 {
+  width: 150px;
+  font-size: larger;
+  margin-bottom: 20px;
+}
+.ItemDetails p {
+  padding: 10px;
+  border-top: 1px solid rgb(85, 85, 85);
+}

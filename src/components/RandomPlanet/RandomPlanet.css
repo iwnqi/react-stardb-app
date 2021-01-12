@@ -1,0 +1,27 @@
+.RandomPlanet {
+  background-color: rgb(46, 46, 46);
+  display: flex;
+  flex-direction: inline;
+  width: 100%;
+  max-width: 90%;
+  height: 270px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.RandomPlanet img {
+  margin: 20px 0 0 10px;
+  border-radius: 15px;
+}
+.RandomPlanet div.information {
+  color: white;
+  margin: 20px 0 0 30px;
+}
+.RandomPlanet h2 {
+  font-size: larger;
+  margin-bottom: 20px;
+}
+.RandomPlanet p {
+  padding: 10px;
+  border-top: 1px solid rgb(85, 85, 85);
+}

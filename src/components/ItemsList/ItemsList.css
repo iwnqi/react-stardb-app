@@ -1,0 +1,18 @@
+.ItemsList {
+  color: white;
+  background-color: rgb(46, 46, 46);
+  display: flex;
+
+  align-items: stretch;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: stretch;
+  border: 1px solid rgb(85, 85, 85);
+}
+
+.ItemsList li:not(:first-child) {
+  border-top: 1px solid rgb(85, 85, 85);
+}
+.ItemsList li {
+  padding: 15px;
+}
