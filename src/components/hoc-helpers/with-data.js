@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Spinner from "../Spinner";
-const withData = (View, getData) => {
+const withData = (View, getData, getImage) => {
   return class extends Component {
     state = {
       data: null,
